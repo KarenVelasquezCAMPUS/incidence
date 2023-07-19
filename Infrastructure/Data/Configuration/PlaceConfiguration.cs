@@ -1,0 +1,15 @@
+using Core.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace Infrastructure.Data.Configuration;
+public class PlaceConfiguration : IEntityTypeConfiguration<Place>
+{
+    public void Configure(EntityTypeBuilder<Place> builder)
+    {
+        builder.ToTable("Place");
+        builder.Property(p => p.Id_Place).IsRequired();
+        builder.Property(p => p.Name_Place).IsRequired().HasMaxLength(50);
+        builder.Property(p => p.Description_Place).IsRequired().HasMaxLength(100);
+    }
+}
