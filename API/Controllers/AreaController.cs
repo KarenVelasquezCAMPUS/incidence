@@ -29,18 +29,18 @@ public class AreaController : BaseApiController
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<List<AreaDto>> Get()
+    public async Task<List<AreasDto>> Get()
     {
         var area = await unitofwork.Areas.GetAllAsync();
-        return this.mapper.Map<List<AreaDto>>(area);
+        return this.mapper.Map<List<AreasDto>>(area);
     }
     [HttpGet("{id}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<IActionResult> Get(int id)
+    public async Task<List<AreaDto>> Get(int id)
     {
         var area = await unitofwork.Areas.GetByIdAsync(id);
-        return Ok(area);
+        return this.mapper.Map<List<AreaDto>>(area);
     }
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status201Created)]

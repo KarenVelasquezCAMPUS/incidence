@@ -30,8 +30,8 @@ namespace Infrastructure.Data.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
-                    b.Property<int?>("Description_Incidence")
-                        .HasColumnType("int");
+                    b.Property<string>("Description_Incidence")
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Name_Area")
                         .IsRequired()

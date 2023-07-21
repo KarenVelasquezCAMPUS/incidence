@@ -18,7 +18,9 @@ public class AreaRepository : IArea
 
     public async Task<IEnumerable<Area>> GetAllAsync()=>await _context.Set<Area>().ToListAsync();
 
-    public async Task<Area> GetByIdAsync(int id)=>(await _context.Set<Area>().FindAsync(id))!;
+    public async Task<Area> GetByIdAsync(int id){
+         return _context.Areas.Include(a => a.Places).FirstOrDefault(a => a.Id_Area == id);
+    }
 
     public void Remove(Area entity)=>_context.Set<Area>().Remove(entity);
 
