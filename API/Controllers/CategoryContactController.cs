@@ -25,6 +25,10 @@ public class CategoryContactController : BaseApiController
         var categorycontact = await unitofwork.CategoryContact.GetAllAsync();
         return Ok(categorycontact);
     } */
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]

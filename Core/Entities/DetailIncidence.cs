@@ -7,7 +7,6 @@ public class DetailIncidence
         [Key]
         public int Id_DetailIncidence { get; set; }
 
-
         public int Id_Incidence { get; set; }
         public Incidence ? Incidence { get; set; }
 

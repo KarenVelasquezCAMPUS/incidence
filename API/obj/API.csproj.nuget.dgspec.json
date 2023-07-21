@@ -1,36 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\API\\API.csproj": {}
+    "/home/apolm01-003/Videos/incidence/API/API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\API\\API.csproj": {
+    "/home/apolm01-003/Videos/incidence/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\API\\API.csproj",
+        "projectUniqueName": "/home/apolm01-003/Videos/incidence/API/API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\karen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\API\\obj\\",
+        "projectPath": "/home/apolm01-003/Videos/incidence/API/API.csproj",
+        "packagesPath": "/home/apolm01-003/.nuget/packages/",
+        "outputPath": "/home/apolm01-003/Videos/incidence/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/apolm01-003/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\Infrastructure\\Infrastructure.csproj"
+              "/home/apolm01-003/Videos/incidence/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/apolm01-003/Videos/incidence/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -87,28 +84,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\Core\\Core.csproj": {
+    "/home/apolm01-003/Videos/incidence/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\Core\\Core.csproj",
+        "projectUniqueName": "/home/apolm01-003/Videos/incidence/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\karen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\Core\\obj\\",
+        "projectPath": "/home/apolm01-003/Videos/incidence/Core/Core.csproj",
+        "packagesPath": "/home/apolm01-003/.nuget/packages/",
+        "outputPath": "/home/apolm01-003/Videos/incidence/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/apolm01-003/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -142,36 +137,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\Infrastructure\\Infrastructure.csproj": {
+    "/home/apolm01-003/Videos/incidence/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "/home/apolm01-003/Videos/incidence/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\karen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\Infrastructure\\obj\\",
+        "projectPath": "/home/apolm01-003/Videos/incidence/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/apolm01-003/.nuget/packages/",
+        "outputPath": "/home/apolm01-003/Videos/incidence/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/apolm01-003/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\karen\\OneDrive\\Documentos\\incidence\\Core\\Core.csproj"
+              "/home/apolm01-003/Videos/incidence/Core/Core.csproj": {
+                "projectPath": "/home/apolm01-003/Videos/incidence/Core/Core.csproj"
               }
             }
           }
@@ -211,7 +204,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
         }
       }
     }

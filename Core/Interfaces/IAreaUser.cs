@@ -15,5 +15,4 @@ public interface IAreaUser
     void RemoveRange(IEnumerable<AreaUser> entities);
     void Update(AreaUser entity);
 
-
 }

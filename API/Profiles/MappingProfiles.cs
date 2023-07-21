@@ -11,6 +11,7 @@ public class MappingProfile : Profile
 
         ///Areas - AreaDTO
         CreateMap<Area, AreasDto>()
+        
             .ReverseMap();
         ///Places - placeDTO
         CreateMap<Place, PlacesDto>()
