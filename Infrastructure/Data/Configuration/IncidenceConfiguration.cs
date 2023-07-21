@@ -15,5 +15,22 @@ public class IncidenceConfiguration : IEntityTypeConfiguration<Incidence>
         builder.Property(p => p.Id_Place).IsRequired();
         builder.Property(p => p.Date).IsRequired().HasColumnType("Date");
         builder.Property(p => p.Description_Incidence).IsRequired().HasMaxLength(100);
+         
+       
+       
+             builder.HasOne(y => y.User)
+            .WithMany(l => l.Incidences)
+            .HasForeignKey(z => z.Id_User)
+            .IsRequired();
+
+             builder.HasOne(y => y.Area)
+            .WithMany(l => l.Incidences)
+            .HasForeignKey(z => z.Id_Area)
+            .IsRequired();
+         
+            builder.HasOne(y => y.State)
+            .WithMany(l => l.Incidences)
+            .HasForeignKey(z => z.Id_State)
+            .IsRequired();
     }
 }

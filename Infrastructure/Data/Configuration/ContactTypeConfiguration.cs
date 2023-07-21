@@ -9,7 +9,7 @@ public class ContactTypeConfiguration : IEntityTypeConfiguration<ContactType>
     {
         builder.ToTable("ContactType");
         builder.Property(p => p.Id_ContactType).IsRequired();
-        builder.Property(p => p.Name_ContactType).IsRequired().HasMaxLength(50);
+        builder.Property(p => p.Name_Contact).IsRequired().HasMaxLength(50);
         builder.Property(p => p.Description_ContactType).IsRequired().HasMaxLength(100);
     }
 }
