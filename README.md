@@ -2,6 +2,14 @@
 
 El Gestor de Incidencias en CampusLands es una solución completa que facilita la gestión eficiente de los problemas y contratiempos que puedan surgir en el entorno empresarial. Con su registro centralizado, priorización, asignación de responsabilidades, comunicación efectiva, seguimiento y análisis de métricas, así como su capacidad para mantener un historial detallado, este sistema ayuda al personal de CampusLands a optimizar sus procesos y garantizar una resolución efectiva de las incidencias. Estamos seguros de que este proyecto será una herramienta fundamental para impulsar la eficiencia y mejorar la calidad de los servicios en nuestro entorno de trabajo.
 
+## Desarrolladores
+1. Javier David Campo Suarez 
+2. Karen Sofía Velásquez Meneses
+3. Julian Esteban Sanabria Sarmiento 
+4. Rolando Rodriguez Garcia 
+5. Camilo Andres Hernandez Diaz
+6. Angel Gabriel Ortega Corzo
+
 ## Contenidos del Proyecto
 
 1. [Creación del proyecto Incidencias](#creación-del-proyecto-incidencias)
@@ -218,5 +226,3 @@ Aplicar la migracion a la base de datos:
 ```bash
 dotnet ef database update --project ./Infrastructure/ --startup-project ./API/  
 ```
-=======
-# incidence
