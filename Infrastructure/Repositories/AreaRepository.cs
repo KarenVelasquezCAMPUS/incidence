@@ -17,6 +17,30 @@ public class AreaRepository : IArea
     public IEnumerable<Area> Find(Expression<Func<Area, bool>> expression)=>_context.Set<Area>().Where(expression);
 
     public async Task<IEnumerable<Area>> GetAllAsync()=>await _context.Set<Area>().ToListAsync();
+    public async Task<(int totalRegistros, IEnumerable<Area> registros)> GetAllAsync(int pageIndex, int pageSize){
+        var totalRegistros = await _context.Set<Area>().CountAsync();
+        var registros = await _context.Set<Area>()
+            .Include(u => u.Places)
+            .Skip((pageIndex - 1 ) * pageSize)
+            .Take(pageSize)
+            .ToListAsync();
+        return (totalRegistros, registros);
+    }
+
+    public async Task<(int totalRegistros, IEnumerable<Area> registros)> GetAllAsync(int pageIndex, int pageSize, string search){
+        var query = _context.Areas as IQueryable<Area>;
+        if (!string.IsNullOrEmpty(search))
+        {
+            query = query.Where(p => p.Name_Area.ToLower().Contains(search));
+        }        
+        var totalRegistros = await query.CountAsync();
+        var registros = await query
+            .Include(u => u.Places)
+            .Skip((pageIndex - 1 ) * pageSize)
+            .Take(pageSize)
+            .ToListAsync();
+        return (totalRegistros, registros);
+    }
 
     public async Task<Area> GetByIdAsync(int id){
          return _context.Areas.Include(a => a.Places).FirstOrDefault(a => a.Id_Area == id);

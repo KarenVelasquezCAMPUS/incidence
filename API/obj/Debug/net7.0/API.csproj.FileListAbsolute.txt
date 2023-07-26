@@ -145,3 +145,6 @@ C:/Users/karen/OneDrive/Documentos/incidence/API/obj/Debug/net7.0/ref/API.dll
 /home/apolm01-002/Desktop/Esteban/incidence/API/obj/Debug/net7.0/API.pdb
 /home/apolm01-002/Desktop/Esteban/incidence/API/obj/Debug/net7.0/API.genruntimeconfig.cache
 /home/apolm01-002/Desktop/Esteban/incidence/API/obj/Debug/net7.0/ref/API.dll
+/home/apolm01-003/Videos/incidence/API/bin/Debug/net7.0/AspNetCoreRateLimit.dll
+/home/apolm01-003/Videos/incidence/API/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/apolm01-003/Videos/incidence/API/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.Versioning.dll
