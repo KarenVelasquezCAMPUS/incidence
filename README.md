@@ -216,7 +216,7 @@ public class InsidenciasContext : DbContext
 }
 ```
 
-Para la creación de las migraciones
+Para la creación de las migraciones:
 
 ```bash
 dotnet ef migrations add InitialCreate --project ./Infrastructure/ --startup-project ./API/ --output-dir ./Data/Migrations
