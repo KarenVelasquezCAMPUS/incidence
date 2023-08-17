@@ -9,6 +9,8 @@ El Gestor de Incidencias en CampusLands es una solución completa que facilita l
 4. Rolando Rodriguez Garcia 
 5. Camilo Andres Hernandez Diaz
 6. Angel Gabriel Ortega Corzo
+7. Kevin Elias Arce Garza
+   
 
 ## Contenidos del Proyecto
 
