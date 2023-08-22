@@ -1,6 +1,6 @@
 # Gestor de Incidencias CampusLands
 
-El Gestor de Incidencias en CampusLands es una solución completa que facilita la gestión eficiente de los problemas y contratiempos que puedan surgir en el entorno empresarial. Con su registro centralizado, priorización, asignación de responsabilidades, comunicación efectiva, seguimiento y análisis de métricas, así como su capacidad para mantener un historial detallado, este sistema ayuda al personal de CampusLands a optimizar sus procesos y garantizar una resolución efectiva de las incidencias. Estamos seguros de que este proyecto será una herramienta fundamental para impulsar la eficiencia y mejorar la calidad de los servicios en nuestro entorno de trabajo.
+El Gestor de Incidencias en CampusLands es una solución completa que facilita la gestión eficiente de los problemas y contratiempos que puedan surgir en el entorno empresarial. Con su registro centralizado, priorización, asignación de responsabilidades, comunicación efectiva, seguimiento y análisis de métricas, así como su capacidad para mantener un historial detallado, este sistema ayuda al personal de CampusLands a optimizar sus procesos y garantizar una resolución efectiva de las incidencias. Estamos seguros de que este proyecto será una herramienta fundamental para impulsar la eficiencia y mejorar la calidad de los servicios en nuestro entorno de trabajo. Este repositorio no se encuentra actulizado a la nueva estructura de proyecto vista.
 
 ## Desarrolladores
 1. Javier David Campo Suarez 
